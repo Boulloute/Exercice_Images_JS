@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Exercice image JS</title>
+        <meta charset="UTF-8">
+        <script>
+    function afficher(){
+    if(document.getElementById('coche1').checked){
+        document.getElementById("first").style.display="Block";
+    }
+    else{
+        document.getElementById("first").style.display="None";
+    }
+        }
+
+    </script>
+    </head>
+    <body>
+        <h1>Image(s) a afficher ?</h1>
+        <P><input type="checkbox" id="coche1" >Image 1</p>
+        <button onclick="afficher()" >Afficher</button> <br>
+        <p><img style="width:100px; display:None" id="first" src="Image1.jpg"/></p>
+        <P><input type="checkbox" id="coche2" >Image 2</p>
+        <button onclick="afficher()" >Afficher</button> <br>
+        <p><img style="width:100px; display:None" id="first" src="Image2.jpg"/></p>
+        <P><input type="checkbox" id="coche3" >Image 3</p>
+        <button onclick="afficher()" >Afficher</button> <br>
+        <p><img style="width:100px; display:None" id="first" src="Image3.jpg"/></p>
+    </body>
+</html>
