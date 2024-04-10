@@ -2,9 +2,7 @@
 <head>
 <script>
 function affichage(){
-	document.getElementById('Image1').style.display="Afficher";
-	document.getElementById('Image2').style.display="Afficher";
-	document.getElementById('Image3').style.display="Afficher";
+	alert("Tout es OK !");
 }
 function cacher(){
 	document.getElementById('DuTexte').style.display="None";
@@ -28,12 +26,15 @@ function controler(){
 <p>Image1<input type="checkbox" id="Control"></p>
 <button onclick="controler()">Check</button>
 <button onclick="affichage()">Afficher</button>
+document.getElementById('Image1').style.display="Afficher";
 <p>Image2<input type="checkbox" id="Control"></p>
 <button onclick="controler()">Check</button>
 <button onclick="affichage()">Afficher</button>
+document.getElementById('Image2').style.display="Afficher";	
 <p>Image3<input type="checkbox" id="Control"></p>
 <button onclick="controler()">Check</button>
 <button onclick="affichage()">Afficher</button>
+document.getElementById('Image3').style.display="Afficher";
 <hr/>
 
 
